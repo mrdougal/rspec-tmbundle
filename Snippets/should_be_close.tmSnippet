@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:target}.should be_close(${2:result}, ${3:tolerance})
+	<string>${1:target}.should be_within(${2:tolerance}).of($3:result})
 $0</string>
 	<key>name</key>
-	<string>should be_close</string>
+	<string>should be_within</string>
 	<key>scope</key>
 	<string>source.ruby.rspec</string>
 	<key>tabTrigger</key>
